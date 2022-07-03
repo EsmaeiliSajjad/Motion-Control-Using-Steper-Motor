@@ -1,10 +1,10 @@
 # Motion-Control-Using-Steper-Motor
-
+Precisely control the motion of the CT-Scan bed in one dimension using a stepper motor and its driver
 # Table of Centent
-1. [Description](#1)
-2. [Required Items/Devices](#2)
-2. [Code](#2)
-3. [Upgrade](#3) 
+1.[Description](#1)
+2.[Required Items/Devices](#2)
+3.[Code](#3)
+4. [Upgrade](#4) 
 
 <a name="1"></a>
 # Description
