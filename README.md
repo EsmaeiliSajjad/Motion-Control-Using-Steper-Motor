@@ -44,8 +44,12 @@ As can be seen in the control panel, there are four buttons involved in this cod
 1. Left/Right: In order to change the direction of the rotation, clockwise or anticlockwise
 2. Eliminate: In order to stop the software properly by closing the Visa Resource
 3. Reset Steps: In order to reinitiate the number of steps for rotation.
-4. Run/Stop: In order to stop or rerun the motor. Note that by enabling the stop button, the gear inside the motor will be locked.
+4. Run/Stop: In order to stop or rerun the motor. Note that by enabling the stop button, the gear inside the motor will be locked. 
 
+One may want to know how we can adjust the speed of rotation. It is true that we will set the number of steps, but how we can determine the number of revolutions based on the number of steps. To answer this question, we should refer to the manual of the Microstep Driver. Figure 4 depicts some dip switches located at the top of the driver box. By a combination of the three dip switch, you can change the number of steps to have one revolution. 
+
+<img src="https://user-images.githubusercontent.com/108043716/177061753-ada4d362-8f77-47e4-980f-f2bbb0bbd68b.jpg" width="400" /> <img src="https://user-images.githubusercontent.com/108043716/177061757-0bed789b-e96a-4276-9add-a2b00f19bfd5.jpg" width="400" />
+Fig 4. Dip switches control to change the pulse/rev control.
 <a name="4"></a>
 # Upgrades
 This software can be upgraded to run three stepper motors at the same time to creat the motion in three dimensions, x-axis, y-axis, and z-axis. Also, other automation can be done. By expansing the code, you can generate a software for a 3D-printer using three stepper motors.
