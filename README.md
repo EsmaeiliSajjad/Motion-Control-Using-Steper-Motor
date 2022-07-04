@@ -59,6 +59,6 @@ https://user-images.githubusercontent.com/108043716/177062193-dbca99bd-0594-4666
 Fig 5. A video showing the performan
 <a name="4"></a>
 # Upgrades
-This software can be upgraded to run three stepper motors at the same time to creat the motion in three dimensions, x-axis, y-axis, and z-axis. Also, other automation can be done. By expansing the code, you can generate a software for a 3D-printer using three stepper motors.
+This software can be upgraded to run three stepper motors at the same time to create the motion in three dimensions, x-axis, y-axis, and z-axis. Also, other automation can be done. By expanding the code, you can generate software for a 3D printer using three stepper motors.
 
 
