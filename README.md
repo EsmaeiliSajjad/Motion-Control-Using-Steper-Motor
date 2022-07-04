@@ -30,7 +30,7 @@ Fig 1. Required devices to initiate a motion control of a stepper motor.
 
 <a name="3"></a>
 # Code
-Although LabView computer coding software is used here to write the suitable code for motion control, it is not bad idea to generate the same type of code in Python language as well. Since the instrument is connected via USB to the computer, there is no need for furthur configuration to define Arduino UNO-R3. The following figures show the code in LabView as well as the control panel of the developed software. 
+Although LabView computer coding software is used here to write suitable code for motion control, it is not a bad idea to generate the same type of code in Python language as well. Since the instrument is connected via USB to the computer, there is no need for further configuration to define Arduino UNO-R3. The following figures show the code in LabView as well as the control panel of the developed software.
 
 ![image](https://user-images.githubusercontent.com/108043716/177061257-2623ee32-3e24-4567-bac0-755f04dd3b35.png)
 
@@ -48,8 +48,17 @@ As can be seen in the control panel, there are four buttons involved in this cod
 
 One may want to know how we can adjust the speed of rotation. It is true that we will set the number of steps, but how we can determine the number of revolutions based on the number of steps. To answer this question, we should refer to the manual of the Microstep Driver. Figure 4 depicts some dip switches located at the top of the driver box. By a combination of the three dip switch, you can change the number of steps to have one revolution. 
 
-<img src="https://user-images.githubusercontent.com/108043716/177061753-ada4d362-8f77-47e4-980f-f2bbb0bbd68b.jpg" width="400" /> <img src="https://user-images.githubusercontent.com/108043716/177061757-0bed789b-e96a-4276-9add-a2b00f19bfd5.jpg" width="400" />
+<img src="https://user-images.githubusercontent.com/108043716/177061753-ada4d362-8f77-47e4-980f-f2bbb0bbd68b.jpg" width="400" /> <img src="https://user-images.githubusercontent.com/108043716/177061757-0bed789b-e96a-4276-9add-a2b00f19bfd5.jpg" width="400" /> 
+
 Fig 4. Dip switches control to change the pulse/rev control.
+
+The following video shows the performance of the developed code to control the motion of stepper motor. 
+
+https://user-images.githubusercontent.com/108043716/177062193-dbca99bd-0594-4666-9722-5f9a89ae5c49.mp4
+
+Fig 5. A video showing the performan
 <a name="4"></a>
 # Upgrades
 This software can be upgraded to run three stepper motors at the same time to creat the motion in three dimensions, x-axis, y-axis, and z-axis. Also, other automation can be done. By expansing the code, you can generate a software for a 3D-printer using three stepper motors.
+
+
